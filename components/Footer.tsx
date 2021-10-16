@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const navigation = {
 	main: [
-		{ name: "About", href: "#" },
-		{ name: "Blog", href: "#" },
+		{ name: "About", href: "/about" },
+		{ name: "Blog", href: "/blog" },
 	],
 	social: [
 		{
 			name: "GitHub",
-			href: "#",
+			href: "https://github.com/BrentonBeltrami/indielurkers",
 			icon: (props) => (
 				<svg fill="currentColor" viewBox="0 0 24 24" {...props}>
 					<path
