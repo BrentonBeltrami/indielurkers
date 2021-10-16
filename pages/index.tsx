@@ -8,7 +8,7 @@ export default function Home() {
 				<title>Indie Lurkers</title>
 			</Head>
 
-			<main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+			<main className="">
 				<Header />
 			</main>
 		</div>

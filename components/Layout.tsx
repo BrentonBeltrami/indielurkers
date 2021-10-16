@@ -3,9 +3,9 @@ import Navbar from "./NavBar";
 
 export default function Layout({ children }) {
 	return (
-		<div className="layout">
+		<div className="flex flex-col h-screen">
 			<Navbar {...children} />
-			<div className="">{children}</div>
+			<div className="flex-grow bg-gray-900">{children}</div>
 			<Foot />
 		</div>
 	);
