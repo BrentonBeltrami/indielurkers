@@ -15,57 +15,19 @@ export default function Example() {
 						<div className="flex items-center justify-between h-16">
 							<div className="flex items-center">
 								<div className="flex-shrink-0">
-									<img
-										className="block lg:hidden h-8 w-auto"
-										src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-										alt="Workflow"
-									/>
-									<img
-										className="hidden lg:block h-8 w-auto"
-										src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-										alt="Workflow"
-									/>
+									<div className="flex">
+										<p className="bg-white text-gray-900 text-2xl font-black px-1.5 rounded-sm ">
+											IL
+										</p>
+										<p className="ml-2 text-white text-lg font-black">INDIE LURKERS</p>
+									</div>
 								</div>
 								<div className="hidden sm:block sm:ml-6">
-									<div className="flex space-x-4">
-										{/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-										<a
-											href="#"
-											className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-										>
-											Dashboard
-										</a>
-										<a
-											href="#"
-											className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-										>
-											Team
-										</a>
-										<a
-											href="#"
-											className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-										>
-											Projects
-										</a>
-										<a
-											href="#"
-											className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-										>
-											Calendar
-										</a>
-									</div>
+									<div className="flex space-x-4"></div>
 								</div>
 							</div>
 							<div className="hidden sm:ml-6 sm:block">
 								<div className="flex items-center">
-									<button
-										type="button"
-										className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-									>
-										<span className="sr-only">View notifications</span>
-										<BellIcon className="h-6 w-6" aria-hidden="true" />
-									</button>
-
 									{/* Profile dropdown */}
 									<Menu as="div" className="ml-3 relative">
 										<div>
@@ -147,33 +109,7 @@ export default function Example() {
 					</div>
 
 					<Disclosure.Panel className="sm:hidden">
-						<div className="px-2 pt-2 pb-3 space-y-1">
-							{/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-							<a
-								href="#"
-								className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
-							>
-								Dashboard
-							</a>
-							<a
-								href="#"
-								className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-							>
-								Team
-							</a>
-							<a
-								href="#"
-								className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-							>
-								Projects
-							</a>
-							<a
-								href="#"
-								className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-							>
-								Calendar
-							</a>
-						</div>
+						<div className="px-2 pt-2 pb-3 space-y-1"></div>
 						<div className="pt-4 pb-3 border-t border-gray-700">
 							<div className="flex items-center px-5">
 								<div className="flex-shrink-0">
